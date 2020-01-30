@@ -1,7 +1,5 @@
 class CouponsController < ApplicationController
-  def coupon_code:string
-  end
-
-  def store:string
-  end
+def new
+  @coupon - Coupon.new
+end
 end
